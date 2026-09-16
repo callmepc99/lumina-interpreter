@@ -33,3 +33,43 @@ lumina/
 ├── examples/
 │   └── test.lum          # Sample Lumina script files
 └── tests/                # Automated test suites
+```
+## ✨ Core Features
+Modular Design: Strictly separated pipeline components (lexer, parser, evaluator) for high maintainability.
+
+Robust Lexical Analysis: Accurately tokenizes keywords, identifiers, operators, and literals.
+
+AST Construction: Builds precise Abstract Syntax Trees to represent language grammar.
+
+Zero Dependencies: Written entirely in standard Python without external baggage.
+
+##  🏁 Getting Started
+Prerequisites
+Make sure you have Python installed on your system:
+
+Bash
+python3 --version
+Installation
+Clone your repository:
+
+Bash
+git clone [https://github.com/callmepc99/lumina-interpreter.git](https://github.com/callmepc99/lumina-interpreter.git)
+cd lumina
+Run a sample script using the CLI entry point:
+
+Bash
+python3 cmd/lumina/main.py examples/test.lum
+##  📝 Example Code (test.lum)
+Lisp
+// Sample Lumina script
+let greeting = "Welcome to Lumina";
+print(greeting);
+## 🗺️ Roadmap
+[ ] Add support for functions and control flow (if/else, while loops)
+
+[ ] Implement a REPL (Read-Eval-Print Loop) interactive shell
+
+[ ] Optimize error reporting with line and column tracking
+
+## 👤 Author
+Crafted with 💻 by Prithvi (@callmepc99)
