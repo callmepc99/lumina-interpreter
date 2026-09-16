@@ -1,0 +1,6 @@
+let count = 1
+while (count == 1) {
+  print("Loop iteration!")
+  count = 0
+}
+print("Exited loop!")
